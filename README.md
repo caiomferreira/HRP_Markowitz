@@ -1,4 +1,4 @@
-# Estudo comparando a otimização método da Teoria Moderna de Portfólios de Markowitz e Hierarchical Risk Parity (HRP) com ETFS dos EUA, Bitcoin e Ouro
+# Estudo comparativo entre a otimização pelo método da Teoria Moderna de Portfólios de Markowitz e Hierarchical Risk Parity (HRP) com ETFs dos EUA, Bitcoin e Ouro
 
 ## Introdução à Teoria Moderna de Portfólios (MPT) e Hierarchical Risk Parity (HRP)
 
@@ -13,7 +13,7 @@ Markowitz mostrou que o retorno esperado de uma carteira não depende apenas da 
 O método de Hierarchical Risk Parity (HRP) é uma abordagem moderna para a construção de portfólios introduzida por Marcos López de Prado. Ao contrário da otimização de média-variância, que assume independência entre os ativos, o HRP considera as relações de dependência entre eles. Utilizando técnicas de agrupamento hierárquico, o HRP estrutura o portfólio de forma a minimizar o risco global, distribuindo o peso dos ativos de maneira proporcional à sua contribuição para o risco total do portfólio. Isso permite uma melhor gestão de riscos em cenários de mercado complexos e dinâmicos.
 
 1. **Agrupamento Hierárquico:** Os ativos são agrupados em clusters com base em suas características de risco e retorno, utilizando técnicas de aprendizado de máquina ou análise de cluster.
-   
+
 2. **Alocação por Nível:** Os ativos são alocados para cada nível da hierarquia de acordo com um objetivo de risco pré-definido.
 
 3. **Otimização Dentro de Clusters:** A alocação de ativos dentro de cada cluster pode ser otimizada utilizando técnicas tradicionais, como o próprio modelo de Markowitz.
